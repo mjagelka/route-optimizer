@@ -1,0 +1,22 @@
+{
+    "Brno":{
+        "latitude":49.19564,
+        "longitude":16.60895
+    },
+    "Jihlava":{
+        "latitude":49.39933,
+        "longitude":15.58344
+    },
+    "Prague":{
+        "latitude":50.08144,
+        "longitude":14.424088
+    },
+    "Beroun":{
+        "latitude":49.964855,
+        "longitude":14.07005
+    },
+    "Hradec Kralove":{
+        "latitude":50.20604,
+        "longitude":15.83271
+    }
+}
