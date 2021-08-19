@@ -17,7 +17,7 @@ class Processor():
         Initialization.
 
         Args:
-            json_path: Path to json file containing cities GPS coordinates.
+            json_path: Path to the json file containing cities GPS coordinates.
             precision: Number of decimals used for rounding.
         """
         self.json_path = json_path
@@ -106,7 +106,7 @@ class Processor():
         """Go through all possible routes and find the optimal one."""
         lowest_distance = float('inf')  # type: float
         best_route = None  # type: Union[None, Tuple[str]]
-        best_partials = None  # type: List[float]
+        best_partials = None  # type: Union[List[float]]
         for route in self.route_list:
             total, partials = self.get_distances(route)
             if total < lowest_distance:

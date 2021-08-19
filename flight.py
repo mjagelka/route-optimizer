@@ -33,6 +33,12 @@ class Flight():
         Returns:
             Distance in km.
         """
+        # The angular distance (alpha) between two points on the sphere is
+        # calculated from equation:
+        # cos(alpha) = sin(lat1)*sin(lat2) +
+        #              cos(lat1)*cos(lat2)*cos(long1 - long2).
+        # Distance is then calculated as d = R*alpha where alpha is in radians
+        # and R is sphere radius.
         radius = 6378
         distance = acos(
             cos(self.lat1)*cos(self.lat2)*cos(self.long1 - self.long2) +

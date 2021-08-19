@@ -1,22 +1,42 @@
 {
-    "Brno":{
-        "latitude":49.19564,
-        "longitude":16.60895
+    "Brno": {
+        "latitude": 49.19564,
+        "longitude": 16.60895
     },
-    "Jihlava":{
-        "latitude":49.39933,
-        "longitude":15.58344
+    "Jihlava": {
+        "latitude": 49.39933,
+        "longitude": 15.58344
     },
-    "Prague":{
-        "latitude":50.08144,
-        "longitude":14.424088
+    "Prague": {
+        "latitude": 50.08144,
+        "longitude": 14.424088
     },
-    "Beroun":{
-        "latitude":49.964855,
-        "longitude":14.07005
+    "Beroun": {
+        "latitude": 49.964855,
+        "longitude": 14.07005
     },
-    "Hradec Kralove":{
-        "latitude":50.20604,
-        "longitude":15.83271
+    "Hradec Kralove": {
+        "latitude": 50.20604,
+        "longitude": 15.83271
+    },
+    "Karlovy Vary": {
+        "latitude": 50.20604,
+        "longitude": 12.8725
+    },
+    "Plzen": {
+        "latitude": 49.741389,
+        "longitude": 13.3825
+    },
+    "Ceske Budejovice": {
+        "latitude": 48.974722,
+        "longitude": 14.474722
+    },
+    "Usti nad Labem": {
+        "latitude": 50.659167,
+        "longitude": 14.041667
+    },
+    "Liberec": {
+        "latitude": 50.769997,
+        "longitude": 15.058449
     }
 }
