@@ -10,6 +10,7 @@ $ ./cli.py [-h] --json JSON [--precision PRECISION] [--debug]
 JSON file should contain the dictionary with cities and their GPS coordinates.
 As an example you can use `cities.json` file. Be careful about the number of
 cities (N) as the number of possible routes is equivalent to N!.
+Debugging mode for high values of N also creates too many logs.
 
 ## Dependencies
 Project uses only standard Python libraries so there is no need to install

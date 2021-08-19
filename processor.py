@@ -106,7 +106,7 @@ class Processor():
         """Go through all possible routes and find the optimal one."""
         lowest_distance = float('inf')  # type: float
         best_route = None  # type: Union[None, Tuple[str]]
-        best_partials = None  # type: Union[List[float]]
+        best_partials = None  # type: Union[None, List[float]]
         for route in self.route_list:
             total, partials = self.get_distances(route)
             if total < lowest_distance:
