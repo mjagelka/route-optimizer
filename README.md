@@ -1,5 +1,5 @@
 # Route Optimizer
-This is a Python mini project that works as a CLI tool for finding the optimal
+This is a Python3 mini project that works as a CLI tool for finding the optimal
 route between given cities.
 
 ## Usage
